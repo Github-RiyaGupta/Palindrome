@@ -6,9 +6,7 @@ public class Pallindrome {
         rev=0;
         temp=x;
         if(x<0)
-        {
             return false;
-        }
         else
         {
             while(temp!=0){
@@ -20,8 +18,8 @@ public class Pallindrome {
             return true;
             else
             return false;
-            }
         }
+    }
     public static void main(String[] args){
         int x;
         Scanner sc=new Scanner(System.in);
@@ -29,6 +27,6 @@ public class Pallindrome {
         x=sc.nextInt();
         Pallindrome pd=new Pallindrome();
         System.out.println("The pallindrome of "+x+" exists? :"+pd.isPalindrome(x));
-    }    
+   }    
     
 }
